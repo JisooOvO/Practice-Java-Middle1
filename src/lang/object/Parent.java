@@ -1,0 +1,10 @@
+package lang.object;
+
+// 묵시적으로 Object 클래스를 상속받음
+public class Parent {
+
+    public void parentMethod(){
+        System.out.println("Parent.parentMethod");
+    }
+
+}
